@@ -21,7 +21,7 @@ public class Servlet3 extends HttpServlet
 		String f=req.getParameter("email");
 		
 		 Cookie[] cookies=req.getCookies();
-		 
+		 out.println("Hi");
 		out.println("username:"+cookies[0].getValue());
 		out.println("age:"+cookies[1].getValue());
 		out.println("qualification:"+cookies[2].getValue());
