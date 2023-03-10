@@ -25,6 +25,7 @@ public class Servlet1 extends HttpServlet
 		
 		res.addCookie(cookie1);
 		res.addCookie(cookie2);
+		out.println("hello");
 		
 		
 		
