@@ -24,7 +24,7 @@ public class Servlet2 extends HttpServlet
 		Cookie cookie3=new Cookie("c", c);
 		Cookie cookie4=new Cookie("d", d);
 		
-		out.println("From Sabarinath");
+		out.println("From Rajesh");
 		
 		res.addCookie(cookie3);
 		res.addCookie(cookie4);
